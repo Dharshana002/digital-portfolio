@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: Lavender;
+    text-align: center;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;width: 100%;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+}
+
+.project {
+    background-color: white;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.skills {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); /* Set to 5 columns */
+  gap: 20px;
+  justify-content: center; /* Center the grid items horizontally */
+  max-width: 500px; /* Optional: Set a max width for the container */
+  margin: 0 auto; /* Center the container itself */
+  	
+}
+
+.skill-box {
+  background-color: white;
+  padding: 30px 20px;
+  text-align: center;
+  width: 150px; /* Set a fixed width for the skill boxes */
+}
+
+.skill-box h2 {
+  font-size: 1em;
+  color: black;
+  text-transform: capitalize;
+}
+
+/* Hover effect */
+.skill-box:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}
+
+input, textarea {
+    width: 30%;
+    padding: 5px;
+    font-size: 16px;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+  background-color: cadetblue;
+  border: none;
+  color: white;
+  padding: 5px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+
+footer {
+background-color: #333; color: white; text-align: center; padding: 20px;  position: relative; bottom: 0;
+width: 100%;
+}
